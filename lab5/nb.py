@@ -44,6 +44,7 @@ def cross_validation_split(dataset, n_folds):
 		dataset_split.append(fold)
 	return dataset_split
 
+# Determine classProbability
 def classProbability(dataset,attr_num):
 	classes=[0.0,1.0]
 	probabilities={}
